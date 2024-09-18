@@ -40,7 +40,7 @@ dose_response_wrapper.prepare_calibration(X_cal, T_cal)
 target_dataset = ... # concat X_target with t0_vector
 
 # The options for calibrate are: CPS (default=False, to use conformal predictive systems), use_propensity (default=True, to use the propensity weights), and local_conditional_mode (default=True, to use the local mode)
-dose_response_wrapper.calibrate(target_dataset, y_cal, T_cal, target_treatment = to
+dose_response_wrapper.calibrate(target_dataset, y_cal, T_cal, target_treatment = t0)
 
 # If you want the prediction intervals for multiple coverages, e.g. 50%, 80%, 90%, and 95% use:
 prediction_intervals_matrix = dose_response_wrapper.predict_multi_int(
