@@ -8,7 +8,7 @@ _WORK IN PROGRESS_
 
 ## Usage 🛠
 
-The conformal prediction for dose-response models builts upon the Crepes and weighted crepes framework.
+The conformal prediction for dose-response models builds upon the Crepes and weighted crepes framework.
 
 ```py
 from WCDRF.base import *
@@ -60,7 +60,26 @@ prediction_intervals = dose_response_wrapper.predict_int(
                                 )
 # prediction_intervals has dimensions: [target_dataset_idx, 2], with [target_dataset_idx, 0] being the lower bound and [target_dataset_idx, 1] the upper bound
 ```
-the [WCDRF_experiments](https://github.com/predict-idlab/conformal_prediction_dose_response/blob/main/WCDRF_experiments.ipynb) notebook contains the experiments of the paper and show how to apply the method. 
+the [WCDRF_experiments](https://github.com/predict-idlab/conformal_prediction_dose_response/blob/main/WCDRF_experiments.ipynb) notebook contains the experiments of the paper and shows how to apply the method. 
+
+Additionally, to generate synthetic data from any of the three setups and scenarios the following code can be utilized, using code from synthetic_data_generation.py:
+
+```py
+from WCDRF.synthetic_data_generation import *
+
+EXPERIMENT_SOURCE = 2
+EXPERIMENT_SCENARIO = 1
+
+synthetic_generator = synthetic_data_generator(source = EXPERIMENT_SOURCE, scenario = EXPERIMENT_SCENARIO)
+synthetic_DRF_df = synthetic_generator.generate_synthetic_DRF_data(N = 5000)
+
+# If you would need the true propensity distribution
+OraclePropensityWrapperObject = OraclePropensityWrapper(synthetic_generator)
+
+features = list(synthetic_DRF_df.columns.values[:-2])
+treatment = "W"
+outcome = "Y"
+```
 
 ## Features ✨
 
