@@ -6,3 +6,5 @@ results_backup/
 data/
 WCDRF/__pycache__/
 crepes_weighted/__pycache__/
+heroic_experiments.ipynb
+mimic_experiments.ipynb
