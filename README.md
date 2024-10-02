@@ -87,4 +87,19 @@ outcome = "Y"
 * Modifiable weights
 * Model-agnostic
 * Synthetic data generators
+ 
+## Referencing our package :memo:
 
+If you use this code in a scientific work, we would highly appreciate citing us as:
+
+```bibtex
+@misc{verhaeghe2024conformalpredictiondoseresponsemodels,
+      title={Conformal Prediction for Dose-Response Models with Continuous Treatments}, 
+      author={Jarne Verhaeghe and Jef Jonkers and Sofie Van Hoecke},
+      year={2024},
+      eprint={2409.20412},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2409.20412}, 
+}
+```
