@@ -1,0 +1,43 @@
+classdef Patient_appended
+    properties (SetAccess = immutable)
+        id
+        age     % years
+        height  % cm
+        weight  % kg
+        sex     % 1 - male, 2 - female
+        bmi
+        lbm
+        Remifentanil
+        Atracurium
+        Dopamine
+        SNP
+    end
+
+    methods
+        function obj = Patient_appended(id, age, height, weight, sex,Remifentanil, Atracurium, Dopamine,SNP  )
+
+
+
+            obj.id = id;
+            obj.age = age;
+            obj.height = height;
+            obj.weight = weight;
+            obj.sex = sex;
+            obj.bmi = weight / ((height/100)^2);
+            obj.Remifentanil = Remifentanil;
+            obj.Atracurium = Atracurium;
+            obj.Dopamine = Dopamine;
+            obj.SNP = SNP;
+
+            switch sex 
+                case 1
+                    obj.lbm = 1.1 * weight - 128 * (weight/height)^2; % James Formula for Men
+                case 2
+                    obj.lbm = 1.07 * weight - 148 * (weight/height)^2; % James Formula for Women
+                otherwise
+                    disp('Error: undefined gender. You may consider defining new values in Patient.m class')
+            end
+        end
+    end
+
+end

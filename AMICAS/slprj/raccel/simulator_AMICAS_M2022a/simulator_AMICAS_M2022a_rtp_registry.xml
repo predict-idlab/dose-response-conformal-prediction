@@ -1,0 +1,1912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/slsa_mm_param_rtp/R2023a">
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="e749b464-4e57-42d4-9e67-629efd403218">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="3b7eb45f-0daf-4321-81d2-a899166bd515"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e4e08784-88d3-43ca-ad92-d11beb1c94fb"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e7ed7410-5500-45bf-94b4-5ff218f6d43a">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="1f89f88e-90fc-470e-a0e5-6a867b9c4454"/>
+    <valueIndices>31</valueIndices>
+    <valueIndices>39</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.ModelMetadata type="slsa.mm.param.rtp.ModelMetadata" uuid="a72a1c79-4e5d-4c25-a59f-2b26aa900f83">
+    <modelName>simulator_AMICAS_M2022a</modelName>
+  </slsa.mm.param.rtp.ModelMetadata>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="3364ce11-7313-4045-92ae-d96e0aeea492">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Propofol/PK/Internal</blockPath>
+    <name>C_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e0a455e1-9b1e-4389-a50b-ea1b35528476"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="33e84675-fe63-453d-abfb-c06861fa791a">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ffa3501d-71cf-4040-bf2b-57648939ed93"/>
+    <valueIndices>43</valueIndices>
+    <valueIndices>43</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="337286ae-e9e0-4083-8d8d-a345d349b537">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="9425e6c1-912e-4c9c-b9ff-1f2dfb873ef4"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="68a4a013-9bee-4c13-861b-431203c62ccf"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="b3eabb0f-dc25-4a5c-a531-f03db30fa848">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Propofol/PD/Internal</blockPath>
+    <name>C_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ad1a77ba-bbaf-4c5f-ace0-819be359adba"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="33a377d2-84ae-46e2-b046-0edbe9acee9c">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="8317f541-9d2a-4b43-bfc5-791cbdb25531"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="7aa36c9d-6f15-435c-a6a3-2e9d965ae1f0"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="33e5428a-767a-4f45-83f2-5a3723c9c042">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g11/Internal</blockPath>
+    <name>B_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="f3bd3a5f-301c-4261-b653-eaca231590be"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="33976ca1-8e9e-4fef-b223-4d1f0aa4a4d9">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="c56b1443-7298-40d4-8f13-966efe904a93"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="d7327a9d-7eb7-4d91-aa06-976689a81f67"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="33656ad8-a0de-42fb-8a7e-5df9850aa39c">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="444886fc-ea1c-477f-8b34-98ac073bd699"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e600b939-9231-4eba-b34f-71cc76706fd1"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="c485faf7-1d2b-4597-b0af-7c22bb2159b8">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e0b0b9ee-dfb7-486c-8dbf-d41e5752f577"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>184</valueIndices>
+    <valueIndices>185</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="c4972efb-6665-41e3-93d3-ef3f1acd864e">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/RASS PK model/LTI System1/Internal</blockPath>
+    <name>InitialCondition</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="b629b3b6-08a5-4002-93f0-38015024a6ad"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="c4fb448b-50c5-4aa1-a8bc-b29f2c38ce31">
+    <workspaceName>global-workspace</workspaceName>
+    <name>MAPbasis</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e2577365-5f7a-4eec-8b63-38ba2bbdffaa"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="c4a762ad-c6ee-4b89-9751-9d9d9fe77ca7">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="d2e9d4b5-7831-4903-8381-db68bbf067b0"/>
+    <valueIndices>19</valueIndices>
+    <valueIndices>19</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="84442ec3-b4eb-47fb-b095-3838b56a23a9">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="636270e1-e96e-4974-ba6c-83d75cddc3b1"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="93dff8bb-c9f2-4755-871c-e7a9af7072b1"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="0485f40e-6a48-49da-b134-bb28415c8e83">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g22/Internal</blockPath>
+    <name>A_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ded67ca0-8ef7-4866-aa39-07aa5a5c747d"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="04db004f-1a6f-4be0-b6b2-ace62e6a930a">
+    <workspaceName>global-workspace</workspaceName>
+    <name>RSM_type</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="eb844717-f41d-400e-a6cc-5d0590f3ac93"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="444886fc-ea1c-477f-8b34-98ac073bd699">
+    <workspaceName>global-workspace</workspaceName>
+    <name>Anest_loop</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="33656ad8-a0de-42fb-8a7e-5df9850aa39c"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="e6fd3110-8ff4-48bd-8667-09bea486704b">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/LTI System/Internal</blockPath>
+    <name>B_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e4617d95-b9b5-44dd-81ea-61f36d597880"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e6e7c394-2f35-4ce8-bebd-4466cd023947">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="0e2434c3-a9c3-49f3-8fa3-a24d41098ca7"/>
+    <valueIndices>20</valueIndices>
+    <valueIndices>20</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="e65ac4cd-9148-45c1-a2d6-975fbf2433d3">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="71dcb4b5-a178-4701-977e-3e8b16e1e2ac"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="dc542e57-7fe5-4540-aa35-6cedda09abdd"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="e64e6649-716a-403e-9f07-09ebae7366a0">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="81abc8c5-45b3-4e7d-9ee1-5b85d546216e"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="b2447224-0937-41b8-ac31-d76d0592953e"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e600b939-9231-4eba-b34f-71cc76706fd1">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="33656ad8-a0de-42fb-8a7e-5df9850aa39c"/>
+    <valueIndices>0</valueIndices>
+    <valueIndices>0</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="ddb98d8d-da86-49d2-9851-fb0971dfb779">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="05d94389-6fe8-4c41-b1ea-4165f2292233"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="00de0f95-1586-488b-9882-7c48e571b437"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="1d800f8b-6900-4e2a-a9c0-6bb05bfade5d">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="ac937f5c-0c2e-44df-b54c-1e155fde85b7"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="8062b82c-ee5b-4045-9811-174c5931e2b0"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="1dc2edef-b342-4ef9-82eb-19f19edb92b9">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="3c12e0d8-e148-4ce8-b666-2d2ce6c154de"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="d40e13f5-aabd-4d95-a628-318388d42bbb"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="e57016a8-6c49-4bc4-9440-757c2d5aa100">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Remifentanil/PD/Internal</blockPath>
+    <name>B_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="0e2434c3-a9c3-49f3-8fa3-a24d41098ca7"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="252fd375-21bf-4500-a7d2-ec67a23e74e3">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="46b93230-6240-4fcc-82d4-4e1a6f7e33f2"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="bb9d8633-d2d8-4031-bc12-36497384226c"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="65bfc14e-f95a-4db2-bb4b-2b8b29a6fa43">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="cadebf9a-a306-4b10-b609-724980ffce40"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="2af425d3-3539-4fce-b022-94470fa2532e"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="2af425d3-3539-4fce-b022-94470fa2532e">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="65bfc14e-f95a-4db2-bb4b-2b8b29a6fa43"/>
+    <valueIndices>1</valueIndices>
+    <valueIndices>1</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="cadebf9a-a306-4b10-b609-724980ffce40">
+    <workspaceName>global-workspace</workspaceName>
+    <name>Cobasis</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="65bfc14e-f95a-4db2-bb4b-2b8b29a6fa43"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="3cacbc2a-b74d-4e61-8ab0-db61e688120d">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/RASS PK model/LTI System1/Internal</blockPath>
+    <name>B_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="39fc8e74-9328-429a-ab67-263135111fd0"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="3c12e0d8-e148-4ce8-b666-2d2ce6c154de">
+    <workspaceName>global-workspace</workspaceName>
+    <name>Dist_type</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="1dc2edef-b342-4ef9-82eb-19f19edb92b9"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="946dabee-68c8-4a2d-bbc3-423096e7961f">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="eaf51725-25d2-461c-a45d-12a7118cdcf5"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="822418ef-203e-460d-990b-d16f457bf88f"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="9425e6c1-912e-4c9c-b9ff-1f2dfb873ef4">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Propofol/PD/Internal</blockPath>
+    <name>InitialCondition</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="337286ae-e9e0-4083-8d8d-a345d349b537"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="d4c8b437-74ab-4dc2-b0c7-540f20d80fe0">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/LTI System/Internal</blockPath>
+    <name>C_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="7c7fd20f-649e-46aa-bbb0-7ecf3972ffcb"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="d40e13f5-aabd-4d95-a628-318388d42bbb">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="1dc2edef-b342-4ef9-82eb-19f19edb92b9"/>
+    <valueIndices>2</valueIndices>
+    <valueIndices>2</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="e2792b2c-2928-4aa4-8032-31dbe6aaa230">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="368af246-1132-441e-948a-7ef5474d590b"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="5863f245-6879-43eb-8c42-88b79df65b26"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="e2fb9376-1c30-4570-9081-58a214f6c8ec">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="dfec5b12-3c77-4c38-900d-0e985d78c955"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="0884b142-6a73-4826-875b-86dc2f2842a2"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="e2599f68-8a5d-438e-b87b-db167a4dc943">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="7e9f113f-f818-4bac-87fe-20a2297e8c03"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="b8cbc7d6-9ba1-40f7-a9b4-699a2c76c2c4"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="e2577365-5f7a-4eec-8b63-38ba2bbdffaa">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="c4fb448b-50c5-4aa1-a8bc-b29f2c38ce31"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="1cdadd19-271e-4623-b97b-bbe32edaf524"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="1cdadd19-271e-4623-b97b-bbe32edaf524">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e2577365-5f7a-4eec-8b63-38ba2bbdffaa"/>
+    <valueIndices>3</valueIndices>
+    <valueIndices>3</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="eb68a64b-e8ec-45e8-bcd0-f3c157cbca31">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="0992c01f-9b04-455d-b1c0-3e1f123414c7"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="86d8a123-dc1a-4017-8d1c-fcda7b71f452"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="eb844717-f41d-400e-a6cc-5d0590f3ac93">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="04db004f-1a6f-4be0-b6b2-ace62e6a930a"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="ccecdab3-c67d-473c-9e13-fd0e7948852c"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="ccf6dafd-2606-464b-8ccf-cb591c2f885f">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e44b6cf1-9577-4095-b434-0db41d053719"/>
+    <valueIndices>31716</valueIndices>
+    <valueIndices>31716</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="ccecdab3-c67d-473c-9e13-fd0e7948852c">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="eb844717-f41d-400e-a6cc-5d0590f3ac93"/>
+    <valueIndices>4</valueIndices>
+    <valueIndices>4</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="cca63884-ae00-45cb-9b85-71477c5adfe3">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g11/Internal</blockPath>
+    <name>B_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="105d3ab1-3f77-4282-b1cf-0c1bf196cadb"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="a3da628d-0145-4de5-904b-71f443685195">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Remifentanil/PD/Internal</blockPath>
+    <name>B_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ae2e8469-1fa9-4d41-9e56-fa243b8098c8"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="a3fe1136-0e69-41f2-b317-1861d134c681">
+    <workspaceName>global-workspace</workspaceName>
+    <name>alpha_RG</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="075c5037-7f5c-4578-993d-d22e8f95b5b2"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="63a64ad8-eb7d-4ac4-bcb6-454fe016e2a3">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Propofol/PD/Internal</blockPath>
+    <name>B_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ce277b29-1b30-46d9-8515-827b04a668bb"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="636270e1-e96e-4974-ba6c-83d75cddc3b1">
+    <workspaceName>global-workspace</workspaceName>
+    <name>alpha_G</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="84442ec3-b4eb-47fb-b095-3838b56a23a9"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="93dff8bb-c9f2-4755-871c-e7a9af7072b1">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="84442ec3-b4eb-47fb-b095-3838b56a23a9"/>
+    <valueIndices>5</valueIndices>
+    <valueIndices>5</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="07b82d07-354c-4454-b9e1-d0561103731d">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="26e1463a-f258-4dc0-80c2-df4996ca4a0c"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="65b448bf-901b-4315-9408-fdfbda7099d7"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="075c5037-7f5c-4578-993d-d22e8f95b5b2">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="a3fe1136-0e69-41f2-b317-1861d134c681"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="c35b8043-d5c7-4448-b166-d9a94e3d897d"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="430d41fb-572d-4563-92aa-39a70107d4c4">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="bd77677a-9f62-44b8-81d6-63e0bf1b26c6"/>
+    <valueIndices>10</valueIndices>
+    <valueIndices>10</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="c3078342-1f43-41dc-9ef2-b73a8eba8760">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/RASS PK model/LTI System/Internal</blockPath>
+    <name>InitialCondition</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="49a4c123-f62d-458d-a8a2-d1dc69748545"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="c35b8043-d5c7-4448-b166-d9a94e3d897d">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="075c5037-7f5c-4578-993d-d22e8f95b5b2"/>
+    <valueIndices>6</valueIndices>
+    <valueIndices>6</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f457c13b-6eb7-4393-9cd9-0c03ac88766a">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ae2e8469-1fa9-4d41-9e56-fa243b8098c8"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>21</valueIndices>
+    <valueIndices>21</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="f4ad0e7d-5b91-4589-9eb4-758457dcf816">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="6c11cee2-9344-477d-af37-d79b6f54d20a"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="4fe2df5f-31c3-4c5f-b4b8-8ad6abc18c65"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="ac937f5c-0c2e-44df-b54c-1e155fde85b7">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PD/Internal</blockPath>
+    <name>A_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="1d800f8b-6900-4e2a-a9c0-6bb05bfade5d"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="ac9537b0-e481-43c3-a964-b3567626e0d5">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="105d3ab1-3f77-4282-b1cf-0c1bf196cadb"/>
+    <valueIndices>40</valueIndices>
+    <valueIndices>40</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="6cd51e88-6df7-4035-afaa-b9c520d8fe30">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="443711e5-2d97-4b82-8974-c9a061065529"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>121</valueIndices>
+    <valueIndices>126</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="6c11cee2-9344-477d-af37-d79b6f54d20a">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PD/Internal</blockPath>
+    <name>A_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="f4ad0e7d-5b91-4589-9eb4-758457dcf816"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="4f459c65-71e3-4dcc-9790-17616e1a65a7">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PD/Internal</blockPath>
+    <name>B_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="597d1730-ab34-42ae-a06a-14f347114d9c"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="4f5af910-b577-48d9-9520-22945c1746ed">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="49a4c123-f62d-458d-a8a2-d1dc69748545"/>
+    <valueIndices>31709</valueIndices>
+    <valueIndices>31709</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="4fe2df5f-31c3-4c5f-b4b8-8ad6abc18c65">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="f4ad0e7d-5b91-4589-9eb4-758457dcf816"/>
+    <valueIndices>7</valueIndices>
+    <valueIndices>7</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="597d1730-ab34-42ae-a06a-14f347114d9c">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="4f459c65-71e3-4dcc-9790-17616e1a65a7"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="a16ea7a7-8182-4ad1-82c2-968e81008c0f"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="a16ea7a7-8182-4ad1-82c2-968e81008c0f">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="597d1730-ab34-42ae-a06a-14f347114d9c"/>
+    <valueIndices>8</valueIndices>
+    <valueIndices>8</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="86e95235-6494-42eb-b4e4-86b2b38d2617">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="f5f158b3-b459-4b27-82f3-a62b081a5eee"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>118</valueIndices>
+    <valueIndices>119</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="86e59567-e664-4f91-b58a-d9afda51755f">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="9bf066de-6287-44b7-b909-2241ffcf86be"/>
+    <valueIndices>13</valueIndices>
+    <valueIndices>13</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="46b93230-6240-4fcc-82d4-4e1a6f7e33f2">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PD/Internal</blockPath>
+    <name>C_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="252fd375-21bf-4500-a7d2-ec67a23e74e3"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="bb43ecec-3c3d-4914-8497-fe9b328dceec">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="db61e0b3-826f-4d15-9abb-ee8d5a6389df"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>36</valueIndices>
+    <valueIndices>41</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="bb9d8633-d2d8-4031-bc12-36497384226c">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="252fd375-21bf-4500-a7d2-ec67a23e74e3"/>
+    <valueIndices>9</valueIndices>
+    <valueIndices>9</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="bdff4655-6a99-4f66-aee9-fd735ee63193">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Remifentanil/PK/Internal</blockPath>
+    <name>B_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="37e0bf50-69ba-4e51-8b64-139852f13bf6"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="bded0faf-dc7e-45a5-a4b4-275b642bb995">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Remifentanil/PK/Internal</blockPath>
+    <name>A_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="2c0c18b4-f34c-450e-8f44-a4f0e88aa4af"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="bd77677a-9f62-44b8-81d6-63e0bf1b26c6">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="d2865406-d19e-436b-bd0b-4ca2834d18e2"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="430d41fb-572d-4563-92aa-39a70107d4c4"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="d2e9d4b5-7831-4903-8381-db68bbf067b0">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="d24b5ff1-d3f9-47c5-a978-e78e6419822b"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="c4a762ad-c6ee-4b89-9751-9d9d9fe77ca7"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="d24b5ff1-d3f9-47c5-a978-e78e6419822b">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Remifentanil/PD/Internal</blockPath>
+    <name>A_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="d2e9d4b5-7831-4903-8381-db68bbf067b0"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="d22eb00b-cee5-46bc-abc8-01f0e38c080a">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="149f00bf-a820-4577-9e46-396a016de238"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>140</valueIndices>
+    <valueIndices>143</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="d264d47f-a099-4884-b334-158b7012953d">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="859c84ed-9806-415c-bf1b-c289d741c2eb"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>52</valueIndices>
+    <valueIndices>60</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="d2865406-d19e-436b-bd0b-4ca2834d18e2">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PD/Internal</blockPath>
+    <name>InitialCondition</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="bd77677a-9f62-44b8-81d6-63e0bf1b26c6"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="9bf066de-6287-44b7-b909-2241ffcf86be">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="9b206115-502b-4f8c-bed2-5ba501eca77d"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="86e59567-e664-4f91-b58a-d9afda51755f"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="9b206115-502b-4f8c-bed2-5ba501eca77d">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Propofol/PD/Internal</blockPath>
+    <name>A_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="9bf066de-6287-44b7-b909-2241ffcf86be"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="6e5721a5-31ad-4180-9ea0-060db85252ba">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Remifentanil/PD/Internal</blockPath>
+    <name>C_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="a99f1f57-311a-4334-9b70-2add40333bfa"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="6e41eb46-04fe-4f62-a063-3aca864578be">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="5042881b-bc3c-4a00-b10e-5747d8eef594"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="3731e849-dba7-4b82-9ce5-3c1f976de890"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="105d3ab1-3f77-4282-b1cf-0c1bf196cadb">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="cca63884-ae00-45cb-9b85-71477c5adfe3"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="ac9537b0-e481-43c3-a964-b3567626e0d5"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="5042881b-bc3c-4a00-b10e-5747d8eef594">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Propofol/PD/Internal</blockPath>
+    <name>B_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="6e41eb46-04fe-4f62-a063-3aca864578be"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="f70af6ab-961f-45d4-b0de-0131a56b5dad">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g21/Internal</blockPath>
+    <name>C_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="56cc2820-1757-4714-bff8-a94ead3a38eb"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="f72e6689-5a06-4518-ad51-17d0296dbf5d">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g11/Internal</blockPath>
+    <name>A_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="1f89f88e-90fc-470e-a0e5-6a867b9c4454"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="3731e849-dba7-4b82-9ce5-3c1f976de890">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="6e41eb46-04fe-4f62-a063-3aca864578be"/>
+    <valueIndices>14</valueIndices>
+    <valueIndices>14</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="ad1a77ba-bbaf-4c5f-ace0-819be359adba">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="b3eabb0f-dc25-4a5c-a531-f03db30fa848"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="39ae9612-9c55-48aa-adaa-72158e04713a"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="39fc8e74-9328-429a-ab67-263135111fd0">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="3cacbc2a-b74d-4e61-8ab0-db61e688120d"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="91b8296b-c2b1-428d-9dc5-13f86b85fbf8"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="39ae9612-9c55-48aa-adaa-72158e04713a">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ad1a77ba-bbaf-4c5f-ace0-819be359adba"/>
+    <valueIndices>15</valueIndices>
+    <valueIndices>15</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="685a2260-8353-484b-87ad-b5cb904fc935">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e4617d95-b9b5-44dd-81ea-61f36d597880"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>136</valueIndices>
+    <valueIndices>136</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="68a4a013-9bee-4c13-861b-431203c62ccf">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="337286ae-e9e0-4083-8d8d-a345d349b537"/>
+    <valueIndices>16</valueIndices>
+    <valueIndices>16</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="0e2434c3-a9c3-49f3-8fa3-a24d41098ca7">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="e57016a8-6c49-4bc4-9440-757c2d5aa100"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e6e7c394-2f35-4ce8-bebd-4466cd023947"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="05d94389-6fe8-4c41-b1ea-4165f2292233">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Remifentanil/PD/Internal</blockPath>
+    <name>C_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ddb98d8d-da86-49d2-9851-fb0971dfb779"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="00469b26-1e25-4845-b191-c3e9e042c14c">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="670e707c-298a-48cf-bc34-60b3c8c517e2"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="dcc9f607-301f-423a-9f2e-7d85ccab0098"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="00de0f95-1586-488b-9882-7c48e571b437">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ddb98d8d-da86-49d2-9851-fb0971dfb779"/>
+    <valueIndices>21</valueIndices>
+    <valueIndices>21</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="c9d1ea13-adab-4dda-b400-7475675c89e1">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="b78bebd0-6131-4db6-8435-3f4ecd6fe7c6"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="cb99d60c-e57d-4cd0-bf9a-33489f6b5808"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="c90d7142-b873-4953-b0d7-f53826d004d3">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="fbae909d-a2b8-4e0f-ade9-a1413b86f6d5"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="66bbd42f-9b43-4b06-99e0-e7fc32762f73"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="c9853a04-5385-43a5-b559-9949c001859a">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="7aa6a067-e223-4332-a504-c2b6e4aeb0b1"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="fae4b647-2a2d-42b1-a02d-b140e0ce6771"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="fa306e12-b9b8-4322-aaf2-60e0b903cb97">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/LTI System/Internal</blockPath>
+    <name>C_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="149f00bf-a820-4577-9e46-396a016de238"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="fae4b647-2a2d-42b1-a02d-b140e0ce6771">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="c9853a04-5385-43a5-b559-9949c001859a"/>
+    <valueIndices>22</valueIndices>
+    <valueIndices>22</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="7ae65c6c-563c-4865-a824-69c8e4883eda">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="34f8f3a0-c7e9-481f-a5a9-04581873712e"/>
+    <valueIndices>31695</valueIndices>
+    <valueIndices>31695</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="7aa6a067-e223-4332-a504-c2b6e4aeb0b1">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Remifentanil/PD/Internal</blockPath>
+    <name>InitialCondition</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="c9853a04-5385-43a5-b559-9949c001859a"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="1f89f88e-90fc-470e-a0e5-6a867b9c4454">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="f72e6689-5a06-4518-ad51-17d0296dbf5d"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e7ed7410-5500-45bf-94b4-5ff218f6d43a"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="e5bde595-24e2-42d3-a2a4-dd60e614e799">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="7eb79371-0a4f-49cc-87ef-c39bfc6d71e3"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="c742ba5d-2197-4074-8fb2-559339ff6b6f"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="7e9f113f-f818-4bac-87fe-20a2297e8c03">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/Gain2</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e2599f68-8a5d-438e-b87b-db167a4dc943"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="7eb79371-0a4f-49cc-87ef-c39bfc6d71e3">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g11/Internal</blockPath>
+    <name>C_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e5bde595-24e2-42d3-a2a4-dd60e614e799"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="c742ba5d-2197-4074-8fb2-559339ff6b6f">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e5bde595-24e2-42d3-a2a4-dd60e614e799"/>
+    <valueIndices>41</valueIndices>
+    <valueIndices>41</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="983ac1f9-66ca-4892-9ec4-fce5d3f200cc">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="75600101-f698-4542-ad71-8bb8478cfd61"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="9ac0e273-01bd-4634-b060-3953f50b57eb"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="75785cda-3986-45a7-a939-8b2e7c16a728">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="a05abdfe-6470-425f-bbc3-609acdf185bf"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>9</valueIndices>
+    <valueIndices>9</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="75600101-f698-4542-ad71-8bb8478cfd61">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g11/Internal</blockPath>
+    <name>InitialCondition</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="983ac1f9-66ca-4892-9ec4-fce5d3f200cc"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="9ac0e273-01bd-4634-b060-3953f50b57eb">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="983ac1f9-66ca-4892-9ec4-fce5d3f200cc"/>
+    <valueIndices>42</valueIndices>
+    <valueIndices>42</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="ffa3501d-71cf-4040-bf2b-57648939ed93">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="36b20b78-bd8b-4fc6-887c-779fbc438e79"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="33e84675-fe63-453d-abfb-c06861fa791a"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="368af246-1132-441e-948a-7ef5474d590b">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g22/Internal</blockPath>
+    <name>C_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e2792b2c-2928-4aa4-8032-31dbe6aaa230"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="3660e019-4a81-4018-b6d7-4704d7106c5a">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="c04f9ee7-fe23-48d6-8b73-bd7227d5e675"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="4c5421df-7b1a-4f26-882d-e4e2055aae28"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="36b20b78-bd8b-4fc6-887c-779fbc438e79">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/Gain1</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ffa3501d-71cf-4040-bf2b-57648939ed93"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="26e1463a-f258-4dc0-80c2-df4996ca4a0c">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g21/Internal</blockPath>
+    <name>A_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="07b82d07-354c-4454-b9e1-d0561103731d"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="65b448bf-901b-4315-9408-fdfbda7099d7">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="07b82d07-354c-4454-b9e1-d0561103731d"/>
+    <valueIndices>44</valueIndices>
+    <valueIndices>52</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="ae2e8469-1fa9-4d41-9e56-fa243b8098c8">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="a3da628d-0145-4de5-904b-71f443685195"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f457c13b-6eb7-4393-9cd9-0c03ac88766a"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="ae4eec48-c32e-45c0-8796-4435f0350f55">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="b1120432-7489-43c6-b74b-f8bc87aab422"/>
+    <valueIndices>31704</valueIndices>
+    <valueIndices>31704</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="ae48a7aa-48ff-4f12-963c-d17d5e284bb0">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="6dbee4bb-5e5f-40b1-9980-98585c3feb0a"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="d7fc12c2-9bd9-4cb7-b863-924c81a0deab"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="6dcad691-2b3c-4ac8-a5bd-a629077d1801">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="68696e49-d250-4c86-9c3a-ecacfd423468"/>
+    <valueIndices>74</valueIndices>
+    <valueIndices>74</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="6dbee4bb-5e5f-40b1-9980-98585c3feb0a">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g21/Internal</blockPath>
+    <name>B_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ae48a7aa-48ff-4f12-963c-d17d5e284bb0"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="d7327a9d-7eb7-4d91-aa06-976689a81f67">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="33976ca1-8e9e-4fef-b223-4d1f0aa4a4d9"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>15</valueIndices>
+    <valueIndices>15</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="d7fc12c2-9bd9-4cb7-b863-924c81a0deab">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ae48a7aa-48ff-4f12-963c-d17d5e284bb0"/>
+    <valueIndices>53</valueIndices>
+    <valueIndices>53</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="d6f57fd9-b84e-4a20-8112-636441f44714">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="d3699c09-0548-4c07-af0b-80e394200d3f"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e1f6754c-0dc9-4d0e-a208-83af73e8c253"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="d3699c09-0548-4c07-af0b-80e394200d3f">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g21/Internal</blockPath>
+    <name>C_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="d6f57fd9-b84e-4a20-8112-636441f44714"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="e1dc0d01-4e39-4a0a-b223-ed9451ae13e5">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g22/Internal</blockPath>
+    <name>C_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="443711e5-2d97-4b82-8974-c9a061065529"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="e100f17a-899c-429d-a00a-787b2ba639e1">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g22/Internal</blockPath>
+    <name>B_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="3c7354c2-ba07-4dd2-a9dc-8e7cbad0065e"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e1f6754c-0dc9-4d0e-a208-83af73e8c253">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="d6f57fd9-b84e-4a20-8112-636441f44714"/>
+    <valueIndices>54</valueIndices>
+    <valueIndices>54</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="51676e98-e9e2-4dca-a57e-eaa09bf7f756">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="897a3f29-ac18-46bd-9d7a-2fa00ea9de97"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>86</valueIndices>
+    <valueIndices>91</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="51c3e519-1a35-4a3b-af68-b1e3d2f1b12b">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="35fcfb26-2d4b-4213-b9fe-835d7e85ce05"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="71c1a7ff-d516-4bdb-b568-c45ca6965d0a"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="35fcfb26-2d4b-4213-b9fe-835d7e85ce05">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g21/Internal</blockPath>
+    <name>InitialCondition</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="51c3e519-1a35-4a3b-af68-b1e3d2f1b12b"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="71dd18ac-17ae-4db8-ab76-d3757f878dd7">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="ebdbff57-9b7a-48e6-8a63-87a42c148362"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="6295a418-6232-492f-a25c-82514a028aab"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="71c1a7ff-d516-4bdb-b568-c45ca6965d0a">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="51c3e519-1a35-4a3b-af68-b1e3d2f1b12b"/>
+    <valueIndices>55</valueIndices>
+    <valueIndices>55</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="b8cbc7d6-9ba1-40f7-a9b4-699a2c76c2c4">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e2599f68-8a5d-438e-b87b-db167a4dc943"/>
+    <valueIndices>56</valueIndices>
+    <valueIndices>56</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="670e707c-298a-48cf-bc34-60b3c8c517e2">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g12/Internal</blockPath>
+    <name>A_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="00469b26-1e25-4845-b191-c3e9e042c14c"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="dcc9f607-301f-423a-9f2e-7d85ccab0098">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="00469b26-1e25-4845-b191-c3e9e042c14c"/>
+    <valueIndices>63</valueIndices>
+    <valueIndices>71</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="ea170683-46ac-4761-ac1d-3d844bab46d8">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e0e41aa2-457c-495a-835b-46d9da58b540"/>
+    <valueIndices>86</valueIndices>
+    <valueIndices>86</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="eaf51725-25d2-461c-a45d-12a7118cdcf5">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g12/Internal</blockPath>
+    <name>B_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="946dabee-68c8-4a2d-bbc3-423096e7961f"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="82c0398d-f904-429d-8189-e59fff5a3fde">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="3a971d99-87e1-48e7-9c00-b3451f7ac0c5"/>
+    <valueIndices>73</valueIndices>
+    <valueIndices>73</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="822418ef-203e-460d-990b-d16f457bf88f">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="946dabee-68c8-4a2d-bbc3-423096e7961f"/>
+    <valueIndices>72</valueIndices>
+    <valueIndices>72</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="3a971d99-87e1-48e7-9c00-b3451f7ac0c5">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="f2f33c8f-07c7-4367-b8d6-294926cc83ee"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="82c0398d-f904-429d-8189-e59fff5a3fde"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="f231da89-74e0-4214-92fa-a222ce28c538">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="3dd040a8-ef68-4ffa-81bd-0c55e72ace7d"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="b7b75b87-3826-4003-a818-0179cd1a4883"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="f2f33c8f-07c7-4367-b8d6-294926cc83ee">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g12/Internal</blockPath>
+    <name>C_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="3a971d99-87e1-48e7-9c00-b3451f7ac0c5"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="68696e49-d250-4c86-9c3a-ecacfd423468">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="983772a8-d090-4d90-8f2a-1236be5298a8"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="6dcad691-2b3c-4ac8-a5bd-a629077d1801"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="9873d97b-b2ef-4d3f-a36a-e2f82912b094">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="e31acf33-de3c-400e-9f2a-cd593e2be441"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="71583197-ba1f-4944-a578-e55d60b5670f"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="983772a8-d090-4d90-8f2a-1236be5298a8">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g12/Internal</blockPath>
+    <name>InitialCondition</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="68696e49-d250-4c86-9c3a-ecacfd423468"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="ded67ca0-8ef7-4866-aa39-07aa5a5c747d">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="0485f40e-6a48-49da-b134-bb28415c8e83"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="033bd850-9411-4c6f-80c1-70760d762299"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="033bd850-9411-4c6f-80c1-70760d762299">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ded67ca0-8ef7-4866-aa39-07aa5a5c747d"/>
+    <valueIndices>75</valueIndices>
+    <valueIndices>83</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="3ccfe1f7-1019-4044-9198-d156d26d228f">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="d198e141-a05d-45cd-a96d-926eb2149b8b"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>145</valueIndices>
+    <valueIndices>146</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="3c7354c2-ba07-4dd2-a9dc-8e7cbad0065e">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="e100f17a-899c-429d-a00a-787b2ba639e1"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="b5207a93-e0ac-427e-908e-d81f3affb2e5"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="b5207a93-e0ac-427e-908e-d81f3affb2e5">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="3c7354c2-ba07-4dd2-a9dc-8e7cbad0065e"/>
+    <valueIndices>84</valueIndices>
+    <valueIndices>84</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="74b3e6f9-b663-4598-952e-fc8c00abca9b">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="c1333bc6-c94b-4a4b-a0bd-43763b09614e"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="0d689b05-68ed-4ab3-b760-a052c784f405"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="c1333bc6-c94b-4a4b-a0bd-43763b09614e">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g22/Internal</blockPath>
+    <name>C_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="74b3e6f9-b663-4598-952e-fc8c00abca9b"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="0d689b05-68ed-4ab3-b760-a052c784f405">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="74b3e6f9-b663-4598-952e-fc8c00abca9b"/>
+    <valueIndices>85</valueIndices>
+    <valueIndices>85</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="e0b0b9ee-dfb7-486c-8dbf-d41e5752f577">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="4c00cb26-4565-4629-be9f-23f4e76b944e"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="c485faf7-1d2b-4597-b0af-7c22bb2159b8"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="e0a455e1-9b1e-4389-a50b-ea1b35528476">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="3364ce11-7313-4045-92ae-d96e0aeea492"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="37e67478-f649-4137-b546-1f738597d11b"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="e0e41aa2-457c-495a-835b-46d9da58b540">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="77b7c121-96d5-4a5a-bd18-d3631e878fd9"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="ea170683-46ac-4761-ac1d-3d844bab46d8"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="77b7c121-96d5-4a5a-bd18-d3631e878fd9">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g22/Internal</blockPath>
+    <name>InitialCondition</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e0e41aa2-457c-495a-835b-46d9da58b540"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="2f7722af-f0ac-40e5-91d6-45c68fe70038">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="2f556c54-60c4-461b-818a-e5c29608978f"/>
+    <valueIndices>89</valueIndices>
+    <valueIndices>93</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="2f556c54-60c4-461b-818a-e5c29608978f">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="f6a28927-425e-4791-a464-a9070719ff0a"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="2f7722af-f0ac-40e5-91d6-45c68fe70038"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="f67ac797-e1c5-405e-9ea5-3ed62d7a5704">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="578a42d8-853a-4894-a97d-8806330f788d"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="cc7ba4dc-2fca-4997-ab88-a33b150120ba"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="f68c9293-be09-4d60-9e7c-974926d81d23">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PD/Internal</blockPath>
+    <name>C_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="191c5132-2a23-43a6-995e-afc549f6af45"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f6a2f3cf-bf00-4f3a-baaa-da736b434690">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ede1a8fb-0949-4b54-9e9f-b6f6f359598a"/>
+    <valueIndices>31693</valueIndices>
+    <valueIndices>31693</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="f6a28927-425e-4791-a464-a9070719ff0a">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/LTI System/Internal</blockPath>
+    <name>A_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="2f556c54-60c4-461b-818a-e5c29608978f"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="305188b6-a31d-47f7-b409-cecb89095d3e">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="354dc7a2-4268-4fa0-95d1-f742cebf31d0"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="8ae19ff2-b65a-4804-8c72-8a7bd9bec9a9"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="354dc7a2-4268-4fa0-95d1-f742cebf31d0">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/LTI System/Internal</blockPath>
+    <name>B_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="305188b6-a31d-47f7-b409-cecb89095d3e"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="8ae19ff2-b65a-4804-8c72-8a7bd9bec9a9">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="305188b6-a31d-47f7-b409-cecb89095d3e"/>
+    <valueIndices>94</valueIndices>
+    <valueIndices>94</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="7c7fd20f-649e-46aa-bbb0-7ecf3972ffcb">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="d4c8b437-74ab-4dc2-b0c7-540f20d80fe0"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="2520f2c2-0af4-4c04-8a38-78bc7d5fb1f5"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="2520f2c2-0af4-4c04-8a38-78bc7d5fb1f5">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="7c7fd20f-649e-46aa-bbb0-7ecf3972ffcb"/>
+    <valueIndices>95</valueIndices>
+    <valueIndices>95</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="cbe82953-baef-4891-9745-d70134002280">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="fce4d141-76f2-4ce5-8374-478ded6abde8"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>160</valueIndices>
+    <valueIndices>163</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="cb2cf495-6329-44af-bc9c-e5c0551f7f64">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="4757ddf0-ecd9-48d6-9acf-0dfdbf0ac9d3"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="b69b2962-01b3-4377-8e94-96163add1664"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="cbda3e4e-0443-4281-9739-3516a5dc5f5d">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="f3579e52-d544-4d76-a909-40657df2c1f2"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f9ca8b3f-1a93-46af-9696-225fa3fa1b2c"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="f3bd3a5f-301c-4261-b653-eaca231590be">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="33e5428a-767a-4f45-83f2-5a3723c9c042"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="dd600c65-c8ad-46c7-a32e-2a5c7621a3e4"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="f3579e52-d544-4d76-a909-40657df2c1f2">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/LTI System/Internal</blockPath>
+    <name>InitialCondition</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="cbda3e4e-0443-4281-9739-3516a5dc5f5d"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="f94882ea-782d-4b34-bef0-fd42e20b11e2">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Propofol/PK/Internal</blockPath>
+    <name>B_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ede1a8fb-0949-4b54-9e9f-b6f6f359598a"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f9ca8b3f-1a93-46af-9696-225fa3fa1b2c">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="cbda3e4e-0443-4281-9739-3516a5dc5f5d"/>
+    <valueIndices>96</valueIndices>
+    <valueIndices>96</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="2d82a724-5bdc-4549-a6a6-768215b2eaae">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="64a8daf3-ec62-4207-b81f-a76db3c19a61"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f61ba4bb-318d-4fbf-83f0-980b8907f008"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="2df09cac-18b0-4b7f-9cfe-6f1979308b3e">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="a068689a-a535-4c69-95ac-68d02f45149d"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>187</valueIndices>
+    <valueIndices>190</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="2d083000-5666-4e72-a1f4-51c4da464202">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="edb37f35-d7e3-47cd-b4e6-fce5e8a12e03"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="3df6e4fd-6b71-4869-9319-723cd36cf5e8"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="ede1a8fb-0949-4b54-9e9f-b6f6f359598a">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="f94882ea-782d-4b34-bef0-fd42e20b11e2"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f6a2f3cf-bf00-4f3a-baaa-da736b434690"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="ed15804c-2834-44b4-8160-8f9caae3c93b">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="da750b43-76b9-4da4-a223-31d7a1df8bdf"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="8b0d11ef-417d-47f7-8a13-9b0c50a4f821"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="edb37f35-d7e3-47cd-b4e6-fce5e8a12e03">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/RASS PK model/LTI System1/Internal</blockPath>
+    <name>A_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="2d083000-5666-4e72-a1f4-51c4da464202"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="3d6264f3-7ccf-497a-b239-c5219bef237b">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/LTI System/Internal</blockPath>
+    <name>A_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="16315933-9e37-483a-b322-e96d6e9f0fe0"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="3d2a8049-eab2-40ec-b0a3-766b24ee57cb">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g12/Internal</blockPath>
+    <name>B_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="b2c05dcf-ccb8-4d83-9e05-8822196a26f6"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="3d58e74c-d3f4-495b-8bb7-628bf2b3c3fe">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="8ad6a842-c564-40d3-a6dd-2b8b674331f6"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="ab09ab05-4d39-4df7-aa89-339eca85324c"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="3dd040a8-ef68-4ffa-81bd-0c55e72ace7d">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Remifentanil/PK/Internal</blockPath>
+    <name>InitialCondition</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="f231da89-74e0-4214-92fa-a222ce28c538"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="3df6e4fd-6b71-4869-9319-723cd36cf5e8">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="2d083000-5666-4e72-a1f4-51c4da464202"/>
+    <valueIndices>99</valueIndices>
+    <valueIndices>99</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="c9b09311-27de-4b8e-a3f8-2f8f2f951b50">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="ae5f6dff-ca25-4977-9b94-6f5739f272c9"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="b8a02507-faca-4fb8-ab12-75b19b4403f8"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="ae5f6dff-ca25-4977-9b94-6f5739f272c9">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/RASS PK model/LTI System1/Internal</blockPath>
+    <name>B_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="c9b09311-27de-4b8e-a3f8-2f8f2f951b50"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="b8a02507-faca-4fb8-ab12-75b19b4403f8">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="c9b09311-27de-4b8e-a3f8-2f8f2f951b50"/>
+    <valueIndices>100</valueIndices>
+    <valueIndices>100</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="da750b43-76b9-4da4-a223-31d7a1df8bdf">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/RASS PK model/LTI System1/Internal</blockPath>
+    <name>C_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ed15804c-2834-44b4-8160-8f9caae3c93b"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="8b0d11ef-417d-47f7-8a13-9b0c50a4f821">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ed15804c-2834-44b4-8160-8f9caae3c93b"/>
+    <valueIndices>101</valueIndices>
+    <valueIndices>101</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="b69b2962-01b3-4377-8e94-96163add1664">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="cb2cf495-6329-44af-bc9c-e5c0551f7f64"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>4</valueIndices>
+    <valueIndices>5</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="b629b3b6-08a5-4002-93f0-38015024a6ad">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="c4972efb-6665-41e3-93d3-ef3f1acd864e"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="b08d45cc-a6eb-4129-a312-1fd707816572"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="b08d45cc-a6eb-4129-a312-1fd707816572">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="b629b3b6-08a5-4002-93f0-38015024a6ad"/>
+    <valueIndices>102</valueIndices>
+    <valueIndices>102</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="443711e5-2d97-4b82-8974-c9a061065529">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="e1dc0d01-4e39-4a0a-b223-ed9451ae13e5"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="6cd51e88-6df7-4035-afaa-b9c520d8fe30"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="444f6e9c-28c5-4d00-bd90-53f44079ea1d">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="132f2199-972d-4f1e-ae81-672b0a4f0ec6"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="996ba433-e687-4de7-8bc5-15a47cb08be0"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="132f2199-972d-4f1e-ae81-672b0a4f0ec6">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/.</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="444f6e9c-28c5-4d00-bd90-53f44079ea1d"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="996ba433-e687-4de7-8bc5-15a47cb08be0">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="444f6e9c-28c5-4d00-bd90-53f44079ea1d"/>
+    <valueIndices>3207</valueIndices>
+    <valueIndices>3207</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="d4e7d92f-f7b7-4de7-88eb-39c766c5974a">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="4df63325-d8e4-4ec8-8070-46cc33dee711"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="d17c49ff-65b0-4a73-820e-5946ab63c523"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="4df63325-d8e4-4ec8-8070-46cc33dee711">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Propofol/PK/Internal</blockPath>
+    <name>A_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="d4e7d92f-f7b7-4de7-88eb-39c766c5974a"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="d198e141-a05d-45cd-a96d-926eb2149b8b">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="a1abe960-5d9e-49b5-aaf9-79c2152910e3"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="3ccfe1f7-1019-4044-9198-d156d26d228f"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="d17c49ff-65b0-4a73-820e-5946ab63c523">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="d4e7d92f-f7b7-4de7-88eb-39c766c5974a"/>
+    <valueIndices>31686</valueIndices>
+    <valueIndices>31692</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="37e0bf50-69ba-4e51-8b64-139852f13bf6">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="bdff4655-6a99-4f66-aee9-fd735ee63193"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="065e371f-6ae8-45fd-9ff8-85dad817998b"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="37e67478-f649-4137-b546-1f738597d11b">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e0a455e1-9b1e-4389-a50b-ea1b35528476"/>
+    <valueIndices>31694</valueIndices>
+    <valueIndices>31694</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="34f8f3a0-c7e9-481f-a5a9-04581873712e">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="7fecd655-8123-46d7-bf25-62f6529053fc"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="7ae65c6c-563c-4865-a824-69c8e4883eda"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="7fecd655-8123-46d7-bf25-62f6529053fc">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Propofol/PK/Internal</blockPath>
+    <name>InitialCondition</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="34f8f3a0-c7e9-481f-a5a9-04581873712e"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="8aee4940-ad19-4708-969e-a8dc498f2faf">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="b684c381-fe1f-49c4-8ffb-57fc01b3a5b5"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="4a28bce0-05b3-4455-b447-9b98cb8cbd63"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="8ad6a842-c564-40d3-a6dd-2b8b674331f6">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Propofol/PD/Internal</blockPath>
+    <name>B_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="3d58e74c-d3f4-495b-8bb7-628bf2b3c3fe"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="8a4045b6-996c-4d9d-8aae-2ca693d956ae">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="8fdf3717-1829-4c99-97f3-0c0cc4d2e9e6"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="1018ccad-0b4d-4f60-9cb4-8c97064a68bc"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="8fdf3717-1829-4c99-97f3-0c0cc4d2e9e6">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Remifentanil/PK/Internal</blockPath>
+    <name>A_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="8a4045b6-996c-4d9d-8aae-2ca693d956ae"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="1018ccad-0b4d-4f60-9cb4-8c97064a68bc">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="8a4045b6-996c-4d9d-8aae-2ca693d956ae"/>
+    <valueIndices>31696</valueIndices>
+    <valueIndices>31702</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="f17cd661-77b6-42b9-bcf4-3103bb875b6c">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="0578a454-2037-416a-80c0-5536fbc06b8d"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="26a6f38a-5171-4726-9643-d457fa850e9b"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="0578a454-2037-416a-80c0-5536fbc06b8d">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Remifentanil/PK/Internal</blockPath>
+    <name>B_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="f17cd661-77b6-42b9-bcf4-3103bb875b6c"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="26a6f38a-5171-4726-9643-d457fa850e9b">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="f17cd661-77b6-42b9-bcf4-3103bb875b6c"/>
+    <valueIndices>31703</valueIndices>
+    <valueIndices>31703</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="b1120432-7489-43c6-b74b-f8bc87aab422">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="155da90a-5950-4006-8d5f-7705b4eae7b8"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="ae4eec48-c32e-45c0-8796-4435f0350f55"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="155da90a-5950-4006-8d5f-7705b4eae7b8">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Remifentanil/PK/Internal</blockPath>
+    <name>C_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="b1120432-7489-43c6-b74b-f8bc87aab422"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="b78bebd0-6131-4db6-8435-3f4ecd6fe7c6">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Remifentanil/PK/Internal</blockPath>
+    <name>A_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="c9d1ea13-adab-4dda-b400-7475675c89e1"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="b7930a08-6dfb-439f-8503-f1b38a43673a">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="8d71656d-674d-4f77-a367-377e12b30de2"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="61033458-5317-4153-87be-0e7af8fa9eee"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="b7b75b87-3826-4003-a818-0179cd1a4883">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="f231da89-74e0-4214-92fa-a222ce28c538"/>
+    <valueIndices>31705</valueIndices>
+    <valueIndices>31705</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="3b7eb45f-0daf-4321-81d2-a899166bd515">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/RASS PK model/LTI System/Internal</blockPath>
+    <name>A_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e749b464-4e57-42d4-9e67-629efd403218"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e4e08784-88d3-43ca-ad92-d11beb1c94fb">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e749b464-4e57-42d4-9e67-629efd403218"/>
+    <valueIndices>31706</valueIndices>
+    <valueIndices>31706</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="f56ae467-c33e-4b93-878b-11394f366655">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="7d695629-cd08-4242-91b8-3ffbdb6ae9bd"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="430272e9-f057-4318-9ebb-b1ee5ecf23d3"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="7d695629-cd08-4242-91b8-3ffbdb6ae9bd">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/RASS PK model/LTI System/Internal</blockPath>
+    <name>B_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="f56ae467-c33e-4b93-878b-11394f366655"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="430272e9-f057-4318-9ebb-b1ee5ecf23d3">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="f56ae467-c33e-4b93-878b-11394f366655"/>
+    <valueIndices>31707</valueIndices>
+    <valueIndices>31707</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="808f77e2-4171-46b0-9c43-e30e5dd606f0">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="5c659bb6-5173-4195-97b7-d872f5f0fbe4"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="b3093e85-0edd-46ae-953f-630adf84d165"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="8029878a-8f82-4b02-9bea-6437ba2010c5">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="ba847437-e965-4072-8913-a301830dfaa9"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="bc7bc248-8dba-44b2-9752-a219ba413cd7"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="ba847437-e965-4072-8913-a301830dfaa9">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/RASS PK model/LTI System/Internal</blockPath>
+    <name>C_pr</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="8029878a-8f82-4b02-9bea-6437ba2010c5"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="bc7bc248-8dba-44b2-9752-a219ba413cd7">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="8029878a-8f82-4b02-9bea-6437ba2010c5"/>
+    <valueIndices>31708</valueIndices>
+    <valueIndices>31708</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="49a4c123-f62d-458d-a8a2-d1dc69748545">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="c3078342-1f43-41dc-9ef2-b73a8eba8760"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="4f5af910-b577-48d9-9520-22945c1746ed"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="e4617d95-b9b5-44dd-81ea-61f36d597880">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="e6fd3110-8ff4-48bd-8667-09bea486704b"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="685a2260-8353-484b-87ad-b5cb904fc935"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="e44b6cf1-9577-4095-b434-0db41d053719">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="e9fd51d5-cd70-469f-9a6f-706826e62f42"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="ccf6dafd-2606-464b-8ccf-cb591c2f885f"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="e9fd51d5-cd70-469f-9a6f-706826e62f42">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/patient weight</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e44b6cf1-9577-4095-b434-0db41d053719"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="8062b82c-ee5b-4045-9811-174c5931e2b0">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="1d800f8b-6900-4e2a-a9c0-6bb05bfade5d"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>0</valueIndices>
+    <valueIndices>0</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="775c735e-7f76-4fad-b2d2-d35b49afe210">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="11729546-fee4-4f92-b49b-5e0929e21af1"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="59788e4d-37da-49d7-b0ad-8803ba296f1a"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="11729546-fee4-4f92-b49b-5e0929e21af1">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PD/Internal</blockPath>
+    <name>A_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="775c735e-7f76-4fad-b2d2-d35b49afe210"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="59788e4d-37da-49d7-b0ad-8803ba296f1a">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="775c735e-7f76-4fad-b2d2-d35b49afe210"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>1</valueIndices>
+    <valueIndices>2</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="fb1257e7-634c-4942-8103-d6793d866c9c">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/LTI System/Internal</blockPath>
+    <name>B_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="5a199007-268a-44ac-84f6-0580c2327e19"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="fbae909d-a2b8-4e0f-ade9-a1413b86f6d5">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PD/Internal</blockPath>
+    <name>B_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="c90d7142-b873-4953-b0d7-f53826d004d3"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="66bbd42f-9b43-4b06-99e0-e7fc32762f73">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="c90d7142-b873-4953-b0d7-f53826d004d3"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>3</valueIndices>
+    <valueIndices>3</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="4757ddf0-ecd9-48d6-9acf-0dfdbf0ac9d3">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PD/Internal</blockPath>
+    <name>B_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="cb2cf495-6329-44af-bc9c-e5c0551f7f64"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="856fdd35-019e-40d2-901d-2626ac3cb92b">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="6af0a846-1a2d-4bf1-b393-b356a991111d"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="9ba59629-25ef-431c-9735-c9f3ec2de74f"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="6af0a846-1a2d-4bf1-b393-b356a991111d">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PD/Internal</blockPath>
+    <name>C_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="856fdd35-019e-40d2-901d-2626ac3cb92b"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="9ba59629-25ef-431c-9735-c9f3ec2de74f">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="856fdd35-019e-40d2-901d-2626ac3cb92b"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>6</valueIndices>
+    <valueIndices>6</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="191c5132-2a23-43a6-995e-afc549f6af45">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="f68c9293-be09-4d60-9e7c-974926d81d23"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="709055e6-107a-49eb-abd8-04dcc790fcf5"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="709055e6-107a-49eb-abd8-04dcc790fcf5">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="191c5132-2a23-43a6-995e-afc549f6af45"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>7</valueIndices>
+    <valueIndices>8</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="a068689a-a535-4c69-95ac-68d02f45149d">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="7c18800c-95f3-44a1-8f78-3b76774cc760"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="2df09cac-18b0-4b7f-9cfe-6f1979308b3e"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="a05abdfe-6470-425f-bbc3-609acdf185bf">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="18373cb4-ea07-46ec-a9d7-57e7d99ce340"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="75785cda-3986-45a7-a939-8b2e7c16a728"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="18373cb4-ea07-46ec-a9d7-57e7d99ce340">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Propofol/PD/Internal</blockPath>
+    <name>A_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="a05abdfe-6470-425f-bbc3-609acdf185bf"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="c7fb666a-81c0-4eea-b6ea-7b3779d3a173">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="02168cbd-ae00-4b13-a55f-c8ae650632dd"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f41067e8-f95a-43ae-8a90-56d1a967cb02"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="02168cbd-ae00-4b13-a55f-c8ae650632dd">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Propofol/PD/Internal</blockPath>
+    <name>A_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="c7fb666a-81c0-4eea-b6ea-7b3779d3a173"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f41067e8-f95a-43ae-8a90-56d1a967cb02">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="c7fb666a-81c0-4eea-b6ea-7b3779d3a173"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>10</valueIndices>
+    <valueIndices>11</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="ce277b29-1b30-46d9-8515-827b04a668bb">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="63a64ad8-eb7d-4ac4-bcb6-454fe016e2a3"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="15f6186d-8923-4817-a278-ce2717b5f5ea"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="15f6186d-8923-4817-a278-ce2717b5f5ea">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ce277b29-1b30-46d9-8515-827b04a668bb"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>12</valueIndices>
+    <valueIndices>12</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="ab09ab05-4d39-4df7-aa89-339eca85324c">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="3d58e74c-d3f4-495b-8bb7-628bf2b3c3fe"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>13</valueIndices>
+    <valueIndices>14</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="c56b1443-7298-40d4-8f13-966efe904a93">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Propofol/PD/Internal</blockPath>
+    <name>C_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="33976ca1-8e9e-4fef-b223-4d1f0aa4a4d9"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="b1d528e3-c130-4f59-8bc4-3b2f3d4d0225">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="ebd3bfe5-8c75-4c8f-b45a-6cac494bc2ec"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f364e068-3907-41c4-99b9-a4056397a667"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="ebdbff57-9b7a-48e6-8a63-87a42c148362">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g11/Internal</blockPath>
+    <name>C_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="71dd18ac-17ae-4db8-ab76-d3757f878dd7"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="ebef0ce8-fb99-4bba-9ca4-573f9f8f692a">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="5b14dc69-08e4-4fd2-a64c-626180ec5efd"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>19</valueIndices>
+    <valueIndices>20</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="ebd3bfe5-8c75-4c8f-b45a-6cac494bc2ec">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Propofol/PD/Internal</blockPath>
+    <name>C_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="b1d528e3-c130-4f59-8bc4-3b2f3d4d0225"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f364e068-3907-41c4-99b9-a4056397a667">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="b1d528e3-c130-4f59-8bc4-3b2f3d4d0225"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>16</valueIndices>
+    <valueIndices>17</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="8fc8520f-c8ef-440d-91b6-513cf43463d3">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="633b9319-77c3-451f-a4f8-abe07b85cfac"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="ff840bbd-f826-40eb-b534-17d8abcc994b"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="633b9319-77c3-451f-a4f8-abe07b85cfac">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Remifentanil/PD/Internal</blockPath>
+    <name>A_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="8fc8520f-c8ef-440d-91b6-513cf43463d3"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="ff840bbd-f826-40eb-b534-17d8abcc994b">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="8fc8520f-c8ef-440d-91b6-513cf43463d3"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>18</valueIndices>
+    <valueIndices>18</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="5b14dc69-08e4-4fd2-a64c-626180ec5efd">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="dc18f369-4665-4c2e-aa91-14a36dd6b20c"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="ebef0ce8-fb99-4bba-9ca4-573f9f8f692a"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="dc542e57-7fe5-4540-aa35-6cedda09abdd">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e65ac4cd-9148-45c1-a2d6-975fbf2433d3"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>167</valueIndices>
+    <valueIndices>167</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="dc18f369-4665-4c2e-aa91-14a36dd6b20c">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Remifentanil/PD/Internal</blockPath>
+    <name>A_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="5b14dc69-08e4-4fd2-a64c-626180ec5efd"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="5f9a92dc-7099-41b1-8665-45d792e526da">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="608c7ceb-fb3a-4bbe-98de-f77e381b8f68"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f7679249-2ccf-41bd-bfbd-653b1fa088f0"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="6046ac55-bca4-4516-9c90-ef6d4706ca0a">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="7ab514d8-41ce-45b7-9919-7398660d93c8"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="5ac6419e-8f4c-4bc7-acc9-213d06ea498b"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="608c7ceb-fb3a-4bbe-98de-f77e381b8f68">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Remifentanil/PD/Internal</blockPath>
+    <name>B_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="5f9a92dc-7099-41b1-8665-45d792e526da"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f7679249-2ccf-41bd-bfbd-653b1fa088f0">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="5f9a92dc-7099-41b1-8665-45d792e526da"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>22</valueIndices>
+    <valueIndices>23</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="e31acf33-de3c-400e-9f2a-cd593e2be441">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Remifentanil/PD/Internal</blockPath>
+    <name>C_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="9873d97b-b2ef-4d3f-a36a-e2f82912b094"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="71dcb4b5-a178-4701-977e-3e8b16e1e2ac">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Propofol/PK/Internal</blockPath>
+    <name>C_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e65ac4cd-9148-45c1-a2d6-975fbf2433d3"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="71583197-ba1f-4944-a578-e55d60b5670f">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="9873d97b-b2ef-4d3f-a36a-e2f82912b094"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>24</valueIndices>
+    <valueIndices>24</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="a99f1f57-311a-4334-9b70-2add40333bfa">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="6e5721a5-31ad-4180-9ea0-060db85252ba"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="38d0a76c-5611-40f6-b789-aafd86bca490"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="38d0a76c-5611-40f6-b789-aafd86bca490">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="a99f1f57-311a-4334-9b70-2add40333bfa"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>25</valueIndices>
+    <valueIndices>26</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="400799fc-7053-4507-bed8-e180a35f4c9d">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="bf1fee20-ff14-4119-a907-7642ca1124b5"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="a787c6d4-0989-4a4b-b38e-67691dfb1e88"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="bf1fee20-ff14-4119-a907-7642ca1124b5">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g11/Internal</blockPath>
+    <name>A_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="400799fc-7053-4507-bed8-e180a35f4c9d"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="a70905a0-8c4c-44e9-bb1c-69450a40669f">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g11/Internal</blockPath>
+    <name>C_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="97b5b60e-995b-4836-ae5f-e265dbcafe47"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="a787c6d4-0989-4a4b-b38e-67691dfb1e88">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="400799fc-7053-4507-bed8-e180a35f4c9d"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>27</valueIndices>
+    <valueIndices>35</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="db61e0b3-826f-4d15-9abb-ee8d5a6389df">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="dab42eb9-42e5-49ed-80a5-e13125df1096"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="bb43ecec-3c3d-4914-8497-fe9b328dceec"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="dab42eb9-42e5-49ed-80a5-e13125df1096">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g11/Internal</blockPath>
+    <name>A_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="db61e0b3-826f-4d15-9abb-ee8d5a6389df"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="dd600c65-c8ad-46c7-a32e-2a5c7621a3e4">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="f3bd3a5f-301c-4261-b653-eaca231590be"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>42</valueIndices>
+    <valueIndices>42</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="06f7c524-0dbb-4a44-9c7e-ca78c016f352">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="5aae4fe2-143a-43c9-9f2f-b08b066e64b8"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="4564b070-a737-41ce-8d60-2f5d7f910fe8"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="06690eb7-3cbd-4a25-a4fd-58f6c27b8a12">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="5c4625d6-11ff-4ed5-8a3c-34f0ed5cb942"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="d8aeaf1f-4917-4ec4-8e5a-2a17a9c47237"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="5c4625d6-11ff-4ed5-8a3c-34f0ed5cb942">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g11/Internal</blockPath>
+    <name>B_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="06690eb7-3cbd-4a25-a4fd-58f6c27b8a12"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="d8aeaf1f-4917-4ec4-8e5a-2a17a9c47237">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="06690eb7-3cbd-4a25-a4fd-58f6c27b8a12"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>43</valueIndices>
+    <valueIndices>44</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="6295a418-6232-492f-a25c-82514a028aab">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="71dd18ac-17ae-4db8-ab76-d3757f878dd7"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>45</valueIndices>
+    <valueIndices>45</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="97b5b60e-995b-4836-ae5f-e265dbcafe47">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="a70905a0-8c4c-44e9-bb1c-69450a40669f"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="2c46361e-65d7-4cb4-9a41-101ccf197bac"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="2c0c18b4-f34c-450e-8f44-a4f0e88aa4af">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="bded0faf-dc7e-45a5-a4b4-275b642bb995"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f5d54711-eff4-4cc7-ae08-4e4b56d57f79"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="2c46361e-65d7-4cb4-9a41-101ccf197bac">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="97b5b60e-995b-4836-ae5f-e265dbcafe47"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>46</valueIndices>
+    <valueIndices>51</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="859c84ed-9806-415c-bf1b-c289d741c2eb">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="32f83735-888b-4422-851b-fd4ae5c4c5fc"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="d264d47f-a099-4884-b334-158b7012953d"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="32f83735-888b-4422-851b-fd4ae5c4c5fc">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g21/Internal</blockPath>
+    <name>A_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="859c84ed-9806-415c-bf1b-c289d741c2eb"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="b684c381-fe1f-49c4-8ffb-57fc01b3a5b5">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g21/Internal</blockPath>
+    <name>A_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="8aee4940-ad19-4708-969e-a8dc498f2faf"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="4a28bce0-05b3-4455-b447-9b98cb8cbd63">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="8aee4940-ad19-4708-969e-a8dc498f2faf"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>61</valueIndices>
+    <valueIndices>66</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="578a42d8-853a-4894-a97d-8806330f788d">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g21/Internal</blockPath>
+    <name>B_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="f67ac797-e1c5-405e-9ea5-3ed62d7a5704"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="cc7ba4dc-2fca-4997-ab88-a33b150120ba">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="f67ac797-e1c5-405e-9ea5-3ed62d7a5704"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>67</valueIndices>
+    <valueIndices>67</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="7258fa40-2fdc-4971-a89d-7fb590ff7b7b">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="def33f58-8006-4fb4-aad7-322e01120774"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="a5673f18-eaf0-4768-800e-e29ab47c3817"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="def33f58-8006-4fb4-aad7-322e01120774">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g21/Internal</blockPath>
+    <name>B_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="7258fa40-2fdc-4971-a89d-7fb590ff7b7b"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="a5673f18-eaf0-4768-800e-e29ab47c3817">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="7258fa40-2fdc-4971-a89d-7fb590ff7b7b"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>68</valueIndices>
+    <valueIndices>69</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="5606fc20-a46d-4be8-ac23-d796b3604cda">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="64cbb89b-9b98-4fb6-8b23-611d8ee41361"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>164</valueIndices>
+    <valueIndices>164</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="561af722-7e18-4088-b691-1f8e76740add">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g12/Internal</blockPath>
+    <name>A_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="897a3f29-ac18-46bd-9d7a-2fa00ea9de97"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="56cc2820-1757-4714-bff8-a94ead3a38eb">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="f70af6ab-961f-45d4-b0de-0131a56b5dad"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="0ad7ea12-0077-4ce0-aab7-d16f8071a307"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="0ad7ea12-0077-4ce0-aab7-d16f8071a307">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="56cc2820-1757-4714-bff8-a94ead3a38eb"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>70</valueIndices>
+    <valueIndices>70</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="7b2d25af-9991-4d67-b17d-ff18d41cdcce">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="2ca5692d-e7eb-46cd-bed4-e2ba9450de13"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="c0913e90-2b92-4ef4-958c-0c056a3fcdae"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="2ca5692d-e7eb-46cd-bed4-e2ba9450de13">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g21/Internal</blockPath>
+    <name>C_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="7b2d25af-9991-4d67-b17d-ff18d41cdcce"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="c04f9ee7-fe23-48d6-8b73-bd7227d5e675">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g22/Internal</blockPath>
+    <name>A_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="3660e019-4a81-4018-b6d7-4704d7106c5a"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="c0913e90-2b92-4ef4-958c-0c056a3fcdae">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="7b2d25af-9991-4d67-b17d-ff18d41cdcce"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>71</valueIndices>
+    <valueIndices>76</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="9fdc2bb2-5912-4271-a7de-3c96d7bb0abd">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="a6efc9f7-4dbf-46bc-87ad-cddcba2bb7dc"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>147</valueIndices>
+    <valueIndices>147</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="9f5a09f9-e013-4529-806b-4fa46b561cdf">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="171ab502-6040-47c4-a386-bee894289969"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="678d99b1-bf56-44e6-a204-d7005ddbade1"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="171ab502-6040-47c4-a386-bee894289969">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g12/Internal</blockPath>
+    <name>A_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="9f5a09f9-e013-4529-806b-4fa46b561cdf"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="678d99b1-bf56-44e6-a204-d7005ddbade1">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="9f5a09f9-e013-4529-806b-4fa46b561cdf"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>77</valueIndices>
+    <valueIndices>85</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="897a3f29-ac18-46bd-9d7a-2fa00ea9de97">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="561af722-7e18-4088-b691-1f8e76740add"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="51676e98-e9e2-4dca-a57e-eaa09bf7f756"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="b2447224-0937-41b8-ac31-d76d0592953e">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e64e6649-716a-403e-9f07-09ebae7366a0"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>153</valueIndices>
+    <valueIndices>159</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="b2c05dcf-ccb8-4d83-9e05-8822196a26f6">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="3d2a8049-eab2-40ec-b0a3-766b24ee57cb"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="6f07a319-f9f0-446f-b001-0bb641259c8f"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="6f07a319-f9f0-446f-b001-0bb641259c8f">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="b2c05dcf-ccb8-4d83-9e05-8822196a26f6"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>92</valueIndices>
+    <valueIndices>92</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="7612e446-b788-4a0d-ac0b-462db9a51f38">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="142e418a-b16c-42f4-af67-16dcfd025b5b"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="d6403e93-70b3-4c02-9e2e-2132fab70079"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="142e418a-b16c-42f4-af67-16dcfd025b5b">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g12/Internal</blockPath>
+    <name>B_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="7612e446-b788-4a0d-ac0b-462db9a51f38"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="d6403e93-70b3-4c02-9e2e-2132fab70079">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="7612e446-b788-4a0d-ac0b-462db9a51f38"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>93</valueIndices>
+    <valueIndices>94</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="7a27a342-e284-4fc0-9778-d6f7cfe1d96e">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Remifentanil/PK/Internal</blockPath>
+    <name>C_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="7019bcce-6ba6-421f-bbcc-42d252d17418"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="7aa36c9d-6f15-435c-a6a3-2e9d965ae1f0">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="33a377d2-84ae-46e2-b046-0edbe9acee9c"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>132</valueIndices>
+    <valueIndices>135</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="7ab514d8-41ce-45b7-9919-7398660d93c8">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g12/Internal</blockPath>
+    <name>C_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="6046ac55-bca4-4516-9c90-ef6d4706ca0a"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="5aae4fe2-143a-43c9-9f2f-b08b066e64b8">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g22/Internal</blockPath>
+    <name>B_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="06f7c524-0dbb-4a44-9c7e-ca78c016f352"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="5ac6419e-8f4c-4bc7-acc9-213d06ea498b">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="6046ac55-bca4-4516-9c90-ef6d4706ca0a"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>95</valueIndices>
+    <valueIndices>95</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="dfec5b12-3c77-4c38-900d-0e985d78c955">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g12/Internal</blockPath>
+    <name>C_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e2fb9376-1c30-4570-9081-58a214f6c8ec"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="08581fa8-208c-45ec-b6ae-69ae806fce27">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="287d08a9-b8a3-4b4c-bbcf-5a30479c149c"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="a9fa6c7f-3c83-49e4-9bf3-96f7b4b3cd0e"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="0884b142-6a73-4826-875b-86dc2f2842a2">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e2fb9376-1c30-4570-9081-58a214f6c8ec"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>96</valueIndices>
+    <valueIndices>101</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="e837f27a-2dce-4e6a-b26d-5bb869d84b2a">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="1a0d9951-a0f5-4079-bde0-391a5f74fa6c"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="3db794d4-932f-4a8a-94bf-cc938d4a7aca"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="1a0d9951-a0f5-4079-bde0-391a5f74fa6c">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g22/Internal</blockPath>
+    <name>A_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e837f27a-2dce-4e6a-b26d-5bb869d84b2a"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="3db794d4-932f-4a8a-94bf-cc938d4a7aca">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e837f27a-2dce-4e6a-b26d-5bb869d84b2a"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>102</valueIndices>
+    <valueIndices>110</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="4c00cb26-4565-4629-be9f-23f4e76b944e">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Remifentanil/PK/Internal</blockPath>
+    <name>B_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e0b0b9ee-dfb7-486c-8dbf-d41e5752f577"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="4c5421df-7b1a-4f26-882d-e4e2055aae28">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="3660e019-4a81-4018-b6d7-4704d7106c5a"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>111</valueIndices>
+    <valueIndices>116</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="4564b070-a737-41ce-8d60-2f5d7f910fe8">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="06f7c524-0dbb-4a44-9c7e-ca78c016f352"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>117</valueIndices>
+    <valueIndices>117</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f5d54711-eff4-4cc7-ae08-4e4b56d57f79">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="2c0c18b4-f34c-450e-8f44-a4f0e88aa4af"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>172</valueIndices>
+    <valueIndices>178</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="f5f158b3-b459-4b27-82f3-a62b081a5eee">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="d1017a14-9c27-4fea-b915-5eaecc6e696b"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="86e95235-6494-42eb-b4e4-86b2b38d2617"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="d1017a14-9c27-4fea-b915-5eaecc6e696b">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/Hemodynamic/Subsystem/g22/Internal</blockPath>
+    <name>B_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="f5f158b3-b459-4b27-82f3-a62b081a5eee"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="5863f245-6879-43eb-8c42-88b79df65b26">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e2792b2c-2928-4aa4-8032-31dbe6aaa230"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>120</valueIndices>
+    <valueIndices>120</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="16315933-9e37-483a-b322-e96d6e9f0fe0">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="3d6264f3-7ccf-497a-b239-c5219bef237b"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="1b3358dc-0738-4483-90dd-16a876ae0e31"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="1b3358dc-0738-4483-90dd-16a876ae0e31">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="16315933-9e37-483a-b322-e96d6e9f0fe0"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>127</valueIndices>
+    <valueIndices>131</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="8317f541-9d2a-4b43-bfc5-791cbdb25531">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/LTI System/Internal</blockPath>
+    <name>A_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="33a377d2-84ae-46e2-b046-0edbe9acee9c"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="5a199007-268a-44ac-84f6-0580c2327e19">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="fb1257e7-634c-4942-8103-d6793d866c9c"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f81f2d48-6616-4aaa-a1f9-d9c12f3644c3"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f81f2d48-6616-4aaa-a1f9-d9c12f3644c3">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="5a199007-268a-44ac-84f6-0580c2327e19"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>137</valueIndices>
+    <valueIndices>138</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="5cf77903-f4fb-41d6-b2f3-e3db8571b651">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/RASS PK model/LTI System/Internal</blockPath>
+    <name>B_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="5617cc4b-29e0-4638-be5e-ba650b5a94ff"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="5c659bb6-5173-4195-97b7-d872f5f0fbe4">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/LTI System/Internal</blockPath>
+    <name>C_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="808f77e2-4171-46b0-9c43-e30e5dd606f0"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="b3b33aba-fbb3-497f-9ce4-934b57c6d900">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Propofol/PK/Internal</blockPath>
+    <name>B_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="64cbb89b-9b98-4fb6-8b23-611d8ee41361"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="b3093e85-0edd-46ae-953f-630adf84d165">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="808f77e2-4171-46b0-9c43-e30e5dd606f0"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>139</valueIndices>
+    <valueIndices>139</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="149f00bf-a820-4577-9e46-396a016de238">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="fa306e12-b9b8-4322-aaf2-60e0b903cb97"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="d22eb00b-cee5-46bc-abc8-01f0e38c080a"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="0992c01f-9b04-455d-b1c0-3e1f123414c7">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/RASS PK model/LTI System1/Internal</blockPath>
+    <name>A_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="eb68a64b-e8ec-45e8-bcd0-f3c157cbca31"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="86d8a123-dc1a-4017-8d1c-fcda7b71f452">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="eb68a64b-e8ec-45e8-bcd0-f3c157cbca31"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>144</valueIndices>
+    <valueIndices>144</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="a1abe960-5d9e-49b5-aaf9-79c2152910e3">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/RASS PK model/LTI System1/Internal</blockPath>
+    <name>A_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="d198e141-a05d-45cd-a96d-926eb2149b8b"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="a6efc9f7-4dbf-46bc-87ad-cddcba2bb7dc">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="7ed27ad4-f83e-4e34-8b87-36edff5d0f1f"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="9fdc2bb2-5912-4271-a7de-3c96d7bb0abd"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="7ed27ad4-f83e-4e34-8b87-36edff5d0f1f">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/RASS PK model/LTI System1/Internal</blockPath>
+    <name>B_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="a6efc9f7-4dbf-46bc-87ad-cddcba2bb7dc"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="91b8296b-c2b1-428d-9dc5-13f86b85fbf8">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="39fc8e74-9328-429a-ab67-263135111fd0"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>148</valueIndices>
+    <valueIndices>149</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="8d71656d-674d-4f77-a367-377e12b30de2">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/RASS PK model/LTI System1/Internal</blockPath>
+    <name>C_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="b7930a08-6dfb-439f-8503-f1b38a43673a"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="61033458-5317-4153-87be-0e7af8fa9eee">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="b7930a08-6dfb-439f-8503-f1b38a43673a"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>150</valueIndices>
+    <valueIndices>150</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="28025184-3c39-45ae-8700-5d4700f420cd">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="21fc638e-c79a-41fe-b117-ce2bc3636ba7"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="9e2dce87-f434-47e3-90f3-02710e1e8cb0"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="21fc638e-c79a-41fe-b117-ce2bc3636ba7">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/RASS PK model/LTI System1/Internal</blockPath>
+    <name>C_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="28025184-3c39-45ae-8700-5d4700f420cd"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="9e2dce87-f434-47e3-90f3-02710e1e8cb0">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="28025184-3c39-45ae-8700-5d4700f420cd"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>151</valueIndices>
+    <valueIndices>152</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="81abc8c5-45b3-4e7d-9ee1-5b85d546216e">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Propofol/PK/Internal</blockPath>
+    <name>A_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e64e6649-716a-403e-9f07-09ebae7366a0"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="fce4d141-76f2-4ce5-8374-478ded6abde8">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="57cfee23-19ff-43c4-a856-4cf04b4b5098"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="cbe82953-baef-4891-9745-d70134002280"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="57cfee23-19ff-43c4-a856-4cf04b4b5098">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Propofol/PK/Internal</blockPath>
+    <name>A_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="fce4d141-76f2-4ce5-8374-478ded6abde8"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="64cbb89b-9b98-4fb6-8b23-611d8ee41361">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="b3b33aba-fbb3-497f-9ce4-934b57c6d900"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="5606fc20-a46d-4be8-ac23-d796b3604cda"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="287d08a9-b8a3-4b4c-bbcf-5a30479c149c">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Propofol/PK/Internal</blockPath>
+    <name>B_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="08581fa8-208c-45ec-b6ae-69ae806fce27"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="a9fa6c7f-3c83-49e4-9bf3-96f7b4b3cd0e">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="08581fa8-208c-45ec-b6ae-69ae806fce27"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>165</valueIndices>
+    <valueIndices>166</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="cf498143-1996-44a2-8075-144c0f38d5d3">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="894da209-ad69-470b-90f9-398105d7a358"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="9dd0b14f-fbc7-48a0-8d61-51fba61e61c9"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="894da209-ad69-470b-90f9-398105d7a358">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Propofol/PK/Internal</blockPath>
+    <name>C_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="cf498143-1996-44a2-8075-144c0f38d5d3"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="9dd0b14f-fbc7-48a0-8d61-51fba61e61c9">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="cf498143-1996-44a2-8075-144c0f38d5d3"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>168</valueIndices>
+    <valueIndices>171</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="cb99d60c-e57d-4cd0-bf9a-33489f6b5808">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="c9d1ea13-adab-4dda-b400-7475675c89e1"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>179</valueIndices>
+    <valueIndices>182</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="065e371f-6ae8-45fd-9ff8-85dad817998b">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="37e0bf50-69ba-4e51-8b64-139852f13bf6"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>183</valueIndices>
+    <valueIndices>183</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="7019bcce-6ba6-421f-bbcc-42d252d17418">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="7a27a342-e284-4fc0-9778-d6f7cfe1d96e"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="9ff5b3c6-7bea-43fb-bdd3-ad2969015b02"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="9ff5b3c6-7bea-43fb-bdd3-ad2969015b02">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="7019bcce-6ba6-421f-bbcc-42d252d17418"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>186</valueIndices>
+    <valueIndices>186</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="7c18800c-95f3-44a1-8f78-3b76774cc760">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/PK-PD Remifentanil/PK/Internal</blockPath>
+    <name>C_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="a068689a-a535-4c69-95ac-68d02f45149d"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="3be3c740-dcdd-442c-9e5b-a4aab14b5c93">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="0d3321b3-a5a0-4631-9748-dd691a36ca2d"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="0f7dc50e-d388-4012-af8a-fd099c3510dc"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="0d3321b3-a5a0-4631-9748-dd691a36ca2d">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/RASS PK model/LTI System/Internal</blockPath>
+    <name>A_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="3be3c740-dcdd-442c-9e5b-a4aab14b5c93"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="0f7dc50e-d388-4012-af8a-fd099c3510dc">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="3be3c740-dcdd-442c-9e5b-a4aab14b5c93"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>191</valueIndices>
+    <valueIndices>191</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="201e9c7b-e92f-46e2-aedf-3ffc6676e0e4">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="bdcacccf-0901-4e93-beb6-3345d56b7c03"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="041ea1d4-1ec3-40cc-a705-48c7d2b2d3cc"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="bdcacccf-0901-4e93-beb6-3345d56b7c03">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/RASS PK model/LTI System/Internal</blockPath>
+    <name>A_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="201e9c7b-e92f-46e2-aedf-3ffc6676e0e4"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="041ea1d4-1ec3-40cc-a705-48c7d2b2d3cc">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="201e9c7b-e92f-46e2-aedf-3ffc6676e0e4"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>192</valueIndices>
+    <valueIndices>193</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="569b6511-18b2-4343-892a-4573e5619441">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="2fe83faf-efb9-4274-9efd-ac02ba6a7090"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>197</valueIndices>
+    <valueIndices>197</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="5617cc4b-29e0-4638-be5e-ba650b5a94ff">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="5cf77903-f4fb-41d6-b2f3-e3db8571b651"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="1ba8c1b5-432c-4c94-92d8-9dea7f508e01"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="1ba8c1b5-432c-4c94-92d8-9dea7f508e01">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="5617cc4b-29e0-4638-be5e-ba650b5a94ff"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>194</valueIndices>
+    <valueIndices>194</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="64a8daf3-ec62-4207-b81f-a76db3c19a61">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/RASS PK model/LTI System/Internal</blockPath>
+    <name>B_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="2d82a724-5bdc-4549-a6a6-768215b2eaae"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f61ba4bb-318d-4fbf-83f0-980b8907f008">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="2d82a724-5bdc-4549-a6a6-768215b2eaae"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>195</valueIndices>
+    <valueIndices>196</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="2fe83faf-efb9-4274-9efd-ac02ba6a7090">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="d048eeff-1e43-4842-8611-34e3975037e1"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="569b6511-18b2-4343-892a-4573e5619441"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="d048eeff-1e43-4842-8611-34e3975037e1">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/RASS PK model/LTI System/Internal</blockPath>
+    <name>C_ir</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="2fe83faf-efb9-4274-9efd-ac02ba6a7090"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="22cde5e6-bce5-434b-bdc7-73d0cea3c7ca">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="3aac47fa-6d62-4fd9-bc05-89da37a893a0"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="13d889df-f2d6-44de-ada6-03a32e37712f"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="3aac47fa-6d62-4fd9-bc05-89da37a893a0">
+    <blockPath>simulator_AMICAS_M2022a/Subsystem2/RASS PK model/LTI System/Internal</blockPath>
+    <name>C_jc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="22cde5e6-bce5-434b-bdc7-73d0cea3c7ca"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="13d889df-f2d6-44de-ada6-03a32e37712f">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="22cde5e6-bce5-434b-bdc7-73d0cea3c7ca"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>198</valueIndices>
+    <valueIndices>199</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+</MF0>
