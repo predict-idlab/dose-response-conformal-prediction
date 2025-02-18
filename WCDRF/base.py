@@ -7,6 +7,7 @@ import numpy as np
 import pandas as pd
 from sklearn.neighbors import KernelDensity
 from catboost import CatBoostRegressor
+from tqdm import tqdm
 
 def gaussian_kernel_function(target_treatment, T, lengthscale_arr):
         return np.exp(- (((T - target_treatment)**2) / lengthscale_arr))
@@ -172,8 +173,24 @@ class DRFWrapRegressor(WrapRegressor):
             self.propensityLearner.calibrate(X, T, **kwargs, cps=True)
         else:
             raise Exception("propensity calibrate called however, oracles are set to true, verify the method")
+    
+    def calculate_score_samples_from_cps(self, X_batch, T_batch, output_cps, KernelDensity_kernel):
+        return np.array(
+            [
+                np.exp(
+                    KernelDensity(
+                        kernel=KernelDensity_kernel, bandwidth=self.density_bandwidth
+                        ).fit(
+                            (output_cps[idx, :, 0]).reshape(-1, 1)
+                            ).score_samples(
+                                np.array(T_batch[idx]).reshape(-1, 1)
+                                )[0]
+                    ) 
+                for idx in range(len(X_batch))
+            ]
+        )
 
-    def get_propensity_pdf(self, X, T, KernelDensity_kernel='gaussian'):
+    def get_propensity_pdf(self, X, T, KernelDensity_kernel='gaussian',batch_size_limit=10000):
         """
         Returns the propensity probability density function.
 
@@ -192,15 +209,42 @@ class DRFWrapRegressor(WrapRegressor):
             The propensity probability density function for each input.
         """
         if not self.oracle_propensity:
-            output_cps = self.propensityLearner.predict_cps(
-                X, return_cpds=True)
+            if len(X)>batch_size_limit:
+                return_propensity_array = np.array([])
+                for i in tqdm(range(int(len(X)/batch_size_limit)+1)):
+                    if i != int(len(X)/batch_size_limit):
+                        output_cps = self.propensityLearner.predict_cps(
+                            X[i*batch_size_limit:(i+1)*batch_size_limit,:], return_cpds=True)
 
-            return np.array([np.exp(KernelDensity(kernel=KernelDensity_kernel, bandwidth=self.density_bandwidth).fit((output_cps[idx, :, 0]).reshape(-1, 1)).score_samples(np.array(T[idx]).reshape(-1, 1))[0]) for idx in range(len(X))])
+                        if len(return_propensity_array) > 0:
+                            return_propensity_array = np.append(return_propensity_array,self.calculate_score_samples_from_cps(X[i*batch_size_limit:(i+1)*batch_size_limit,:],T[i*batch_size_limit:(i+1)*batch_size_limit],output_cps, KernelDensity_kernel))
+                        else:
+                            return_propensity_array = self.calculate_score_samples_from_cps(X[i*batch_size_limit:(i+1)*batch_size_limit,:],T[i*batch_size_limit:(i+1)*batch_size_limit],output_cps, KernelDensity_kernel)
+                    else:
+                        output_cps = self.propensityLearner.predict_cps(
+                            X[i*batch_size_limit:,:], return_cpds=True)
+                        
+                        return_propensity_array = np.append(return_propensity_array, self.calculate_score_samples_from_cps(X[i*batch_size_limit:,:],T[i*batch_size_limit:],output_cps, KernelDensity_kernel))
+
+                return return_propensity_array
+
+            else:
+                output_cps = self.propensityLearner.predict_cps(
+                    X, return_cpds=True)
+
+                return self.calculate_score_samples_from_cps(X, T, output_cps, KernelDensity_kernel)
+        
+        # if not self.oracle_propensity:
+        #     output_cps = self.propensityLearner.predict_cps(
+        #         X, return_cpds=True)
+
+        #     return np.array([np.exp(KernelDensity(kernel=KernelDensity_kernel, bandwidth=self.density_bandwidth).fit((output_cps[idx, :, 0]).reshape(-1, 1)).score_samples(np.array(T[idx]).reshape(-1, 1))[0]) for idx in range(len(X))])
+        
         else:
             return self.propensityLearner.get_oracle_propensity(X, T)
          
 
-    def get_lengthscale(self, X, multiplier = 0.2):
+    def get_lengthscale(self, X, multiplier = 0.2, batch_size_limit = 10000):
         """
         Computes the lengthscale for calibration.
 
@@ -217,15 +261,40 @@ class DRFWrapRegressor(WrapRegressor):
             The lengthscale for each input.
         """
         if not self.oracle_propensity:
-            std_bounds = self.propensityLearner.predict_int(
-                X, confidence=0.6827)
-            return 2.0 * ((multiplier * (std_bounds[:, 1] - std_bounds[:, 0])/2.0) ** 2.0)
+            if len(X)>batch_size_limit:
+                return_lengthscale_array = np.array([])
+                for i in range(int(len(X)/batch_size_limit)+1):
+                    if i != int(len(X)/batch_size_limit):
+                        std_bounds = self.propensityLearner.predict_int(
+                            X[i*batch_size_limit:(i+1)*batch_size_limit,:], confidence=0.6827)
+                        
+                        if len(return_lengthscale_array) > 0:
+                            return_lengthscale_array = np.append(return_lengthscale_array,2.0 * ((multiplier * (std_bounds[:, 1] - std_bounds[:, 0])/2.0) ** 2.0))
+                        else:
+                            return_lengthscale_array = 2.0 * ((multiplier * (std_bounds[:, 1] - std_bounds[:, 0])/2.0) ** 2.0)
+                    else:
+                        std_bounds = self.propensityLearner.predict_int(
+                            X[i*batch_size_limit:,:], confidence=0.6827)
+                        return_lengthscale_array = np.append(return_lengthscale_array, 2.0 * ((multiplier * (std_bounds[:, 1] - std_bounds[:, 0])/2.0) ** 2.0))
+
+                return return_lengthscale_array
+                
+            else:
+                std_bounds = self.propensityLearner.predict_int(
+                    X, confidence=0.6827)
+                return 2.0 * ((multiplier * (std_bounds[:, 1] - std_bounds[:, 0])/2.0) ** 2.0)
+        
+        # if not self.oracle_propensity:
+        #     std_bounds = self.propensityLearner.predict_int(
+        #         X, confidence=0.6827)
+        #     return 2.0 * ((multiplier * (std_bounds[:, 1] - std_bounds[:, 0])/2.0) ** 2.0)
+        
         else:
             std_output = self.propensityLearner.get_std(X)
             return 2.0 * ((multiplier * (std_output)/2.0) ** 2.0)
 
 
-    def prepare_calibration(self, X, T, multiplier = 0.2, density_bandwidth = 1.0, use_propensity = True):
+    def prepare_calibration(self, X, T, multiplier = 0.2, density_bandwidth = 1.0, use_propensity = True, batch_size_limit = 10000):
         """
         Prepares the model for DRF calibration.
 
@@ -243,12 +312,12 @@ class DRFWrapRegressor(WrapRegressor):
         self.multicalibration = True
         self.density_bandwidth = density_bandwidth
         if use_propensity:
-            self.P_D_di_propensities = self.get_propensity_pdf(X, T)
+            self.P_D_di_propensities = self.get_propensity_pdf(X, T, batch_size_limit = batch_size_limit)
         else:
             self.P_D_di_propensities = np.zeros(len(T))
 
         
-        self.calibration_Lengthscale = self.get_lengthscale(X, multiplier)
+        self.calibration_Lengthscale = self.get_lengthscale(X, multiplier, batch_size_limit = batch_size_limit)
 
     
     def fit_difficulty_estimator(self, X, T, Y):
