@@ -80,6 +80,7 @@ features = list(synthetic_DRF_df.columns.values[:-2])
 treatment = "W"
 outcome = "Y"
 ```
+The [AMICAS](https://github.com/predict-idlab/dose-response-conformal-prediction/blob/main/AMICAS/AMICAS_usecase.ipynb) notebook contains the experiments of the semi-synthetic paper. The AMICAS simulator can be ran by running the MAIN_PROGRAM_AMICAS.m file to generate the BIS.csv file. To generate the counterfactual results for the BIS you need to run Counter_factualMAIN_PROGRAM_AMICAS.m using a parallelized Matlab.
 
 ## Features ✨
 
